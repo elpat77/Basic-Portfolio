@@ -13,6 +13,7 @@ header {
 
 h3 {
     height: 10vh;
+    line-height: 10vh;
     color: white;
     display: table;
     vertical-align:middle;
@@ -29,6 +30,7 @@ nav {
 }
 
 a {
+    height:10vh;
     display:table-cell;
     vertical-align:middle;
     text-decoration: none;
