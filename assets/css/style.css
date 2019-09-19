@@ -104,10 +104,18 @@ main {
     float: left;
 }
 
-p1{
+.about-me{
     color:#777777;
-    line-height: 25px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 3.2vh;
+
+}
+
+.contact{
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 15px;
+    font-size: 20px; 
 }
 
 footer {
@@ -115,3 +123,30 @@ footer {
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
 }
+
+input:focus{
+    background-color: #4aaaa5;
+    color: #666666;
+}
+
+input {
+    line-height: 50px;
+    width: 100%;
+    font-size: 1.25rem;
+    color: #666666;
+}
+
+.submit{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+.button{
+    color: #ffffff;
+}
+
+
+
