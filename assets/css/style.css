@@ -5,7 +5,7 @@
 
 header {
     height:10vh;
-    background: rgb(64, 50, 77);
+    background: white;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -13,46 +13,39 @@ header {
 
 h1,
 a {
-    color:white;
-}
-a{
-    text-decoration: none;
-    font-size: 1.25rem;
+    color:gray;
 }
 
-p{
-    transition: all 1.3 s ease-in;
-}
-a p:hover{
-    transform: translate(-2px, -4px);
-    text-shadow: 2px 2px 2px black;
-}
-
-p:active{
-    transform: translate(-1px, -2px);
-    text-shadow: 1px 1px 1px black;
-}
-
-p:not(:last-child) {
-    margin-right: 15px;
-}
-
-p:nth-child(2) {
-    padding-left: 15px;
-    padding-right: 15px;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-  }
 h1{
     float:left;
 }
+
 nav{
-    margin-right: 40px;
     float:right;
 }
 
-p{
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    line-height: 5vh;
+}
+
+p {
     display: inline-block;
+    transition: all 1.3 s ease-in;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 2px solid rgba(53, 52, 52, 0.317);
+}
+
+p:hover{
+    transform: translate(-2px, -4px);
+    text-shadow: 1px 1px 1px rgb(104, 103, 103);
+}
+
+p:active{
+    transform: translate(-2px, -4px);
+    text-shadow: 1px 1px 1px rgb(104, 103, 103);
 }
 
 main {
