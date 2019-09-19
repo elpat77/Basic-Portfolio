@@ -95,6 +95,11 @@ main {
     float:left;  
 }
 
+.card-image{
+    padding: 15px;
+    width: 200px;
+}
+
 p1{
     color:#777777;
 }
