@@ -17,6 +17,7 @@ header {
     align-items:center;
     justify-content: space-between;
     border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h1{
@@ -92,19 +93,25 @@ main {
     display: table-cell;
     color: #4aaaa5;
     padding: 15px;
-    float:left;  
+    float:left; 
+    font-size: 30px; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .card-image{
     padding: 15px;
     width: 200px;
+    float: left;
 }
 
 p1{
     color:#777777;
+    line-height: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 footer {
     height:10vh;
     background-color: #666666;
+    border-top: 10px solid #4aaaa5;
 }
