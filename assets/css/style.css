@@ -1,23 +1,23 @@
 * {
     margin:0;
     letter-spacing: 2px;
+    box-sizing: border-box;
 }
 
 header {
-    height: 10vh;
-    width:100%;
-    display:table;
-    background-color:#4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    height:10vh;
+    background: rgb(64, 50, 77);
+    display: flex;
+    /* align-items:center;
+    justify-content: space-between; */
 }
 
 h3 {
     height: 10vh;
-    line-height: 10vh;
+    line-height: 5vh;
     color: white;
-    display: table;
     vertical-align:middle;
-    background-color: aqua;
+    background-color: #4aaaa5;
     border: 5px lightcoral solid;
     padding: 12px;
     float:left;
@@ -35,7 +35,7 @@ a {
     vertical-align:middle;
     text-decoration: none;
     color: white;
-    background-color: aqua;
+    background-color:#4aaaa5;
     border: 5px lightcoral solid;
     padding: 12px;
 }
