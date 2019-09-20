@@ -147,36 +147,28 @@ input {
 .button{
     color: #ffffff;
 }
+.container{
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: repeat(2, minmax(1px, 30%));
+    padding: 15px;
+}
 
 .card-image-1{
-    height: 15vh;
-    width: 30vh;
-    
+    width: 85%;
 }
 .card-image-2{
-    height: 15vh;
-    width: 30vh;
-    
+    width: 85%;
 }
 .card-image-3{
-    height: 15vh;
-    width: 30vh;
-    
+    width: 85%; 
 }
 .card-image-4{
-    height: 15vh;
-    width: 30vh;
-    
+    width: 85%;  
 }
 .card-image-5{
-    height: 15vh;
-    width: 30vh;
-    
+    width: 85%;   
 }
 .card-image-6{
-    height: 15vh;
-    width: 30vh;
-    
+    width: 85%;   
 }
-
-
