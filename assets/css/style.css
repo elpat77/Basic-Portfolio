@@ -149,26 +149,26 @@ input {
 }
 .container{
     display: grid;
-    grid-gap: 3em;
+    grid-gap: 1.5em;
     grid-template-columns: repeat(2, minmax(1px, 30%));
     padding: 15px;
 }
 
 .card-image-1{
-    width: 85%;
+    width: 95%;
 }
 .card-image-2{
-    width: 85%;
+    width: 95%;
 }
 .card-image-3{
-    width: 85%; 
+    width: 95%; 
 }
 .card-image-4{
-    width: 85%;  
+    width: 95%;  
 }
 .card-image-5{
-    width: 85%;   
+    width: 95%;   
 }
 .card-image-6{
-    width: 85%;   
+    width: 95%;   
 }
