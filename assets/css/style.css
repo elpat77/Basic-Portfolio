@@ -154,7 +154,7 @@ input {
     display: grid;
     grid-gap: 1.5em;
     grid-template-columns: repeat(2, minmax(1px, 30%));
-    padding: 10px 0 0 0;    
+    padding: 15px;    
     }
 
 .overlay {
@@ -166,5 +166,24 @@ input {
     color: #ffffff; 
     font-size: 15px;
     padding: 10px;
-    display: inline-block;
 }
+
+.img1{
+    max-height: 100%;
+}
+.img2{
+    max-height: 100%;
+}
+.img3{
+    max-height: 100%;
+}
+.img4{
+    max-height: 100%;
+}
+.img5{
+    max-height: 100%;
+}
+.img6{
+    max-height: 100%;
+}
+
